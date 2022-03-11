@@ -5,13 +5,16 @@ $('.saveBtn').on('click', function(){
     var userInput = $(this).siblings('textarea').val()
     var timeBlock = $(this).siblings('textarea').attr('id')
     console.log(userInput, timeBlock);
+
+    localStorage.setItem(timeBlock, userInput)
 })
 
-//create time blocks for working hours of day
+for( let i = 9; i < 18; i++) {
+    $('#' + i).val(localStorage.getItem(i))
+}
 
 //time blocks are color coded to indicate past present future
 
-//when time blocks are clicked the user may enter a task
 
 //tasks may be saved in local storage 
 
