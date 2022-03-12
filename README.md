@@ -10,5 +10,8 @@
 ### Once that was established, I then edited the started HTML to include seperate div containers to hold each hour, text area, and save button. I then made sure I labeled them with the premade CSS classes that were included in the starter code. After setting up this initial HTML, I then used jQuery to create a function that would be applied to the save button allowing the user to save their input in the text area. I also added the command to save the input from the text area saved to a specific hour to be saved to local storage, that way if the page were to refresh the task would still remain.![Screen Shot 2022-03-12 at 11 25 22 AM](https://user-images.githubusercontent.com/96094719/158028362-5b62e181-7d25-4f04-ae68-1c2a9ce48dd9.png)
 
 
-### After establishing this function, I then focused on allowing the page to reflect the past, present, and future through the color of the time block. To do this I created a for loop that called classes that were already set in the CSS. ![Screen Shot 2022-03-12 at 11 27 56 AM](https://user-images.githubusercontent.com/96094719/158028364-59c0d9bd-0508-4b10-975e-2b902319eacf.png)
+### After establishing this function, I then focused on allowing the page to reflect the past, present, and future through the color of the time block. To do this I created a for loop that called classes that were already set in the CSS. 
+![Screen Shot 2022-03-12 at 11 27 56 AM](https://user-images.githubusercontent.com/96094719/158028364-59c0d9bd-0508-4b10-975e-2b902319eacf.png)
+
+Here is a link to the deployed application: https://laynewegenast.github.io/workday-scheduler/
 
