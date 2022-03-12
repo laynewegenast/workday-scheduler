@@ -6,4 +6,6 @@
 
 ### After establishing my Javascript document and using it to pseudo-code, I first began this project by using Moment.js to create an element that reflects the current date. 
 
-### Once that was established, I then edited the started HTML to include
+### Once that was established, I then edited the started HTML to include seperate div containers to hold each hour, text area, and save button. I then made sure I labeled them with the premade CSS classes that were included in the starter code. After setting up this initial HTML, I then used jQuery to create a function that would be applied to the save button allowing the user to save their input in the text area. I also added the command to save the input from the text area saved to a specific hour to be saved to local storage, that way if the page were to refresh the task would still remain.
+
+### After establishing this function, I then focused on allowing the page to reflect the past, present, and future through the color of the time block. To do this I created a for loop that called classes that were already set in the CSS. 
