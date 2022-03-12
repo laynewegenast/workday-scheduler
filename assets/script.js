@@ -1,6 +1,7 @@
 //display date at top of page
 $('#current-day').text(moment().format('dddd MMMM DD YYYY'));
 
+//allow user input on click and ability to save
 $('.saveBtn').on('click', function(){
     var userInput = $(this).siblings('textarea').val()
     var timeBlock = $(this).siblings('textarea').attr('id')
@@ -8,6 +9,7 @@ $('.saveBtn').on('click', function(){
 
     localStorage.setItem(timeBlock, userInput)
 })
+
 var currentHour = moment().hours()
 
 for( let i = 9; i < 18; i++) {
@@ -23,7 +25,3 @@ for( let i = 9; i < 18; i++) {
 
 //time blocks are color coded to indicate past present future
 
-
-//tasks may be saved in local storage 
-
-//tasks remain on page when refreshed
